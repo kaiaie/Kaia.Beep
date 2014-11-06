@@ -13,7 +13,7 @@ FILEVERSION    APP_VERSION_MAJOR,APP_VERSION_MINOR,0,APP_VERSION_BUILD
 PRODUCTVERSION APP_VERSION_MAJOR,APP_VERSION_MINOR,0,APP_VERSION_BUILD
 FILEFLAGSMASK  VS_FFI_FILEFLAGSMASK
 FILEFLAGS      0
-FILEOS         VOS__WINDOWS32
+FILEOS         0x40004 /* VOS_NT_WINDOWS32 */
 FILETYPE       VFT_APP
 FILESUBTYPE    VFT2_UNKNOWN
 BEGIN
@@ -22,13 +22,17 @@ BEGIN
 		BLOCK "040904E4"
 		BEGIN
 			VALUE "CompanyName",      "Kaia Ltd.\r\nhttp://www.kaia.ie"
-			VALUE "FileDescription",  "Beep Utility"
+			VALUE "FileDescription",  "Beep Utility - Generates a system alert sound from the command line"
 			VALUE "FileVersion",      APP_VERSION_STRING
 			VALUE "InternalName",     "BEEP"
 			VALUE "LegalCopyright",   "© 2014 Kaia Ltd. All rights reserved"
 			VALUE "ProductName",      "BEEP"
 			VALUE "ProductVersion",   APP_VERSION_STRING
 		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x409, 1252
 	END
 END
 

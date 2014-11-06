@@ -22,7 +22,5 @@ $(EXE): $(OBJ)
 
 .PHONY: clean
 clean:
-	CMD /C DEL /F/Q $(EXE)
-	CMD /C DEL /F/Q *.o
-	CMD /C DEL /F/Q *.d
+	CMD /C DEL /F/Q $(EXE) *.o *.d
 
