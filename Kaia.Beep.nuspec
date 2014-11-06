@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Kaia.Beep</id>
+    <version>0.1.0</version>
+    <authors>Kaia Ltd.</authors>
+    <owners>Kaia Ltd.</owners>
+    <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
+    <projectUrl>https://github.com/kaiaie</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright © 2014 Kaia Ltd. All rights reserved.</copyright>
+    <tags>CommandLine </tags>
+  </metadata>
+</package>
